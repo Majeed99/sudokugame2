@@ -1,0 +1,96 @@
+body {
+    background-image: url("Japan3.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ET{
+    position: absolute;
+    z-index: 1;
+    margin-left: 200px;
+    margin-top: 370px;
+
+
+
+}
+.NT{
+    position: absolute;
+    z-index: 2;
+    margin-left: 800px;
+    margin-top: 370px;
+
+
+
+}
+.HT{
+     position: absolute;
+     z-index: 3;
+     margin-left: 1400px;
+     margin-top: 370px;
+
+ }
+.titelEM{
+    font-family: "Franklin Gothic Medium";
+    font-size: 30px;
+    margin-top: 330px;
+    margin-left: 200px;
+    position: absolute;
+    z-index: 5;
+    color: #162635;
+}
+.titelNM{
+    font-family: "Franklin Gothic Medium";
+    font-size: 30px;
+    margin-top: 330px;
+    margin-left: 790px;
+    position: absolute;
+    z-index: 5;
+    color: #162635;
+}
+.titelHM{
+    font-family: "Franklin Gothic Medium";
+    font-size: 30px;
+    margin-top: 330px;
+    margin-left: 1400px;
+    position: absolute;
+    z-index: 5;
+    color: #162635;
+}
+
+
+
+.ET tr td{
+    background-color: rgba(0,67,73,0.5);
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+    color: #ffffff;
+    width: 150px;
+    border-style: solid;
+    border-color:#004349;
+    border-width: 3px;
+
+}
+.NT tr td{
+    background-color: rgba(0,67,73,0.5);
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+    color: #ffffff;
+    width: 150px;
+    border-style: solid;
+    border-color:#004349;
+    border-width: 3px;
+
+}
+.HT tr td{
+    background-color: rgba(0,67,73,0.5);
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+    color: #ffffff;
+    width: 150px;
+    border-style: solid;
+    border-color:#004349;
+    border-width: 3px;
+
+}

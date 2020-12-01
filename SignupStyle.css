@@ -1,0 +1,94 @@
+body {
+    background-image: url("Japan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.btn-outline-light {background-color: #fff !important;
+    color: #000 !important;
+}
+.btn-outline-success:hover{border-color: #1786bb;}
+.form-control:hover{border-color: #1786bb;}
+
+.card{
+    height: 660px;
+    width: 700px;
+    margin-top: 120px;
+    text-align: center;
+    margin-left: 1100px;
+    background-color: rgba(0,0,0,0.5) !important;
+    color: #FFFFFF;
+}
+
+.form-signup {
+    width: 50%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signup .form-control:focus {
+    z-index: 2;
+}
+
+.form-signup input[type="text"] {
+    padding: 25px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-family: "Franklin Gothic Medium";
+    color: #6b002c !important;
+
+}
+
+
+
+.form-signup input[type="password"] {
+    padding: 25px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: "Franklin Gothic Medium";
+
+}
+.title{
+    font-size: 35px !important;
+    font-family: "Franklin Gothic Medium";
+    color: #e787a2;
+}
+.card-header{
+    height: 80px;
+}
+.card-body{
+    height: 500px;
+}
+.card-footer{
+    margin-top: 15px;
+   height: 80px;
+}
+.Haveacc{
+    color: lightgrey;
+    font-family: "Franklin Gothic Medium";
+    font-size: 18px;
+}
+.btn{
+    margin-bottom: 20px !important;
+    background-color: #e787a2  !important;
+    color: #6b002c;
+    font-family: "Franklin Gothic Medium";
+
+}
+.btn:hover{
+    background: #ca4769 !important;
+    color: #6b002c !important;
+}
+.Sin{
+    color: #e787a2;
+    text-decoration: none;
+    font-family: "Franklin Gothic Medium";
+    font-size: 18px;
+}
+.Sin:hover{
+    text-decoration: none;
+    color: #ca4769;
+}

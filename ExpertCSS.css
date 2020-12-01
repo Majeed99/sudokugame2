@@ -1,0 +1,83 @@
+body{
+    background-image: url("Japan2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; /*To hide th scroll*/
+}
+
+.SudokuVid{
+    margin-top: 200px;
+    margin-left: 200px;
+    border: 8px inset #77d;
+    position: absolute;
+    z-index: 1;
+}
+
+.card{
+    position: absolute;
+    z-index: 2;
+    height:600px;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 1200px;
+    background-color: rgba(0,0,0,0.4) !important;
+    color: #FFFFFF;
+    text-align: center;
+}
+.card-header{
+    height: 300px;
+}
+.card-body{
+    height: 300px;
+}
+.titleB{
+    font-family: "Franklin Gothic Medium";
+    color: white;
+    font-size: 40px;
+}
+.titleE{
+    font-family: "Franklin Gothic Medium";
+    color: white;
+    font-size: 40px;
+}
+.begin_btn{
+    font-family: "Franklin Gothic Medium";
+    color:#090059;
+    background-color: #949aeb;
+    font-size:25px !important;
+    height: 50px;
+    width: 150px;
+}
+.begin_btn:hover{
+    color:#090059;
+    background-color: #6365b0;
+}
+.skip_btn{
+    margin-top: 10px;
+    font-family: "Franklin Gothic Medium";
+    color:#090059;
+    background-color: #949aeb;
+    font-size:25px !important;
+    height: 50px;
+    width: 150px;
+
+}
+
+.skip_btn:hover{
+    color:#090059;
+    background-color: #6365b0;
+}
+.username{
+    font-family: "Times New Roman";
+    margin-top: 13px;
+    padding-left: 25px;
+    color: white;
+    font-size: 35px;
+}
+.user{
+    color: #cdcfed;
+}
+.intro{
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+}

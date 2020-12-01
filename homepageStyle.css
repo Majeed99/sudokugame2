@@ -1,0 +1,127 @@
+body {
+    background-image: url("Japan2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    height: 450px;
+    width: 670px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 300px;
+    background-color: rgba(0,0,0,0.5) !important;
+    color: #FFFFFF;
+    border-radius: 10px !important;
+}
+.card-header{
+    height: 90px;
+}
+.card-body{
+    height: 250px;
+}
+.card-footer{
+    margin-top: 15px;
+    height: 80px;
+}
+.title{
+    font-size: 40px !important;
+    font-family: "Franklin Gothic Medium";
+    color: white;
+}
+#navi {
+    background: #0d0f36;
+    font-family: "Franklin Gothic Medium";
+}
+
+#navi a:hover {
+    background-color: #40428c;
+}
+
+.list{
+    display: none;
+    margin-top: 46px;
+    margin-left: 0px;
+    width:314px;
+    background-color: #40428c;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 300ms;
+    position: absolute;
+    z-index: 2;
+}
+
+.card div.list div.mode{
+    padding:15px 10px;
+    color:#fcfcfc;
+    text-transform:uppercase;
+    font-size:15px;
+}
+.show {
+    display: block;
+}
+.list div:hover {
+    background-color: #0d0f36;
+}
+.dropbtn{
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+.dropbtn:hover, .dropbtn:focus{
+    background-color: #40428c;
+}
+.crown{
+    float: left;
+    margin-top: 5px;
+}
+.QuestionMark{
+    float: left;
+    margin-top: 5px;
+}
+.gamepad{
+    float: left;
+    margin-top: 5px;
+}
+.menu_btn{
+    text-decoration: none;
+    color: white;
+}
+.menu_btn:hover {
+    text-decoration: none;
+    color: white;
+}
+#tutorial{
+    margin-top: 30px;
+}
+.mode{
+    font-family: "Franklin Gothic Medium";
+}
+.star{
+    float: left;
+    margin-top: 5px;
+}
+.username{
+    font-family: "Times New Roman";
+    margin-top: 13px;
+    padding-left: 25px;
+    color: white;
+    font-size: 35px;
+}
+.user{
+    color: #cdcfed;
+}
+.signout_btn{
+    font-family: "Franklin Gothic Medium";
+    color: #090059;
+    background-color: #949aeb;
+    position: absolute;
+    font-size: 35px !important;
+    height: 69px;
+    width: 189px;
+    margin-left: 210px;
+    margin-top: 230px;
+    z-index: 2;
+}
+.signout_btn:hover{
+    background-color: #6365b0;
+    color: #090059;
+}

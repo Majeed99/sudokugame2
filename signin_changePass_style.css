@@ -1,0 +1,273 @@
+body {
+    background-image: url("Japan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+/*start form*/
+.btn-outline-light {background-color: #fff !important;
+    color: #000 !important;
+    }
+.btn-outline-success:hover{border-color: #1786bb;}
+.form-control:hover{border-color: #1786bb;}
+
+.card{
+    height: 420px;
+    width: 400px;
+    margin-top: 250px;
+    margin-left: 1100px;
+    background-color: rgba(0,0,0,0.5) !important;
+    color: #FFFFFF;
+    text-align: center;
+    }
+.card-header{
+    height: 70px;
+}
+.card-body{
+    height: 230px;
+}
+.card-footer{
+    margin-top: 35px;
+    height: 120px;
+}
+
+.form-signin input[type="text"] {
+    padding: 25px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-family: "Franklin Gothic Medium";
+    color: #6b002c !important;
+
+}
+.form-signin input[type="password"] {
+    padding: 25px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: "Franklin Gothic Medium";
+    color: #6b002c !important;
+}
+
+.title{
+    font-size: 30px !important;
+    font-family: "Franklin Gothic Medium";
+    color: #e787a2;
+    text-align: center;
+}
+
+.login_btn:hover{
+    background: #ca4769 !important;
+    color: #6b002c !important;
+    }
+.links{
+    color: lightgrey;
+    font-family: "Franklin Gothic Medium";
+    font-size: 18px;
+}
+.links a{
+    margin-left: 5px;
+    color: #e787a2;
+    text-decoration: none;
+    font-family: "Franklin Gothic Medium";
+    font-size: 18px;
+    }
+.links a:hover{
+    text-decoration: none;
+    color: #ca4769;
+}
+
+.change_btn{
+    margin-top: 30px;
+    size: 50px;
+    background-color: #e787a2  !important;
+    color: #6b002c;
+    font-family: "Franklin Gothic Medium";
+    align-content: center;
+}
+.change_btn:hover{
+    background: #ca4769 !important;
+    color: #6b002c !important;
+}
+.login_btn{
+    margin-top: 20px;
+    size: 50px;
+    background-color: #e787a2  !important;
+    color: #6b002c;
+    font-family: "Franklin Gothic Medium";
+}
+
+.form-change input[type="text"] {
+    margin-top: 30px;
+    padding: 25px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: "Franklin Gothic Medium";
+    color: #6b002c !important;
+
+}
+
+.form-change input[type="password"] {
+    padding: 25px;
+    margin-top: 30px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: "Franklin Gothic Medium";
+    color: #6b002c !important;
+
+}
+.input-group-prepend.change{
+    margin-top: 30px;
+}
+.error{
+    margin-left: 280px;
+    position: absolute;
+    z-index: 3;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+   margin-top: -25px;
+}
+/***********************************************************************************************************/
+@media only screen and (max-width: 1000px){
+    /*mobile css*/
+    body {
+        background-image: url("Japan.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    /*start form*/
+    .btn-outline-light {background-color: #fff !important;
+        color: #000 !important;
+    }
+    .btn-outline-success:hover{border-color: #1786bb;}
+    .form-control:hover{border-color: #1786bb;}
+
+    .card{
+        height: 420px;
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 0px;
+        background-color: rgba(0,0,0,0.5) !important;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .card-header{
+        height: 70px;
+    }
+    .card-body{
+        height: 230px;
+    }
+    .card-footer{
+        margin-top: 35px;
+        height: 120px;
+    }
+
+    .form-signin input[type="text"] {
+        padding: 25px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        font-family: "Franklin Gothic Medium";
+        color: #6b002c !important;
+
+    }
+    .form-signin input[type="password"] {
+        padding: 25px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        font-family: "Franklin Gothic Medium";
+        color: #6b002c !important;
+    }
+
+    .title{
+        font-size: 30px !important;
+        font-family: "Franklin Gothic Medium";
+        color: #e787a2;
+        text-align: center;
+    }
+
+    .login_btn:hover{
+        background: #ca4769 !important;
+        color: #6b002c !important;
+    }
+    .links{
+        color: lightgrey;
+        font-family: "Franklin Gothic Medium";
+        font-size: 18px;
+    }
+    .links a{
+        margin-left: 5px;
+        color: #e787a2;
+        text-decoration: none;
+        font-family: "Franklin Gothic Medium";
+        font-size: 18px;
+    }
+    .links a:hover{
+        text-decoration: none;
+        color: #ca4769;
+    }
+
+    .change_btn{
+        margin-top: 30px;
+        size: 50px;
+        background-color: #e787a2  !important;
+        color: #6b002c;
+        font-family: "Franklin Gothic Medium";
+        align-content: center;
+    }
+    .change_btn:hover{
+        background: #ca4769 !important;
+        color: #6b002c !important;
+    }
+    .login_btn{
+        margin-top: 20px;
+        size: 50px;
+        background-color: #e787a2  !important;
+        color: #6b002c;
+        font-family: "Franklin Gothic Medium";
+
+    }
+
+    .form-change input[type="text"] {
+        margin-top: 30px;
+        padding: 25px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        font-family: "Franklin Gothic Medium";
+        color: #6b002c !important;
+
+    }
+
+    .form-change input[type="password"] {
+        padding: 25px;
+        margin-top: 30px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        font-family: "Franklin Gothic Medium";
+        color: #6b002c !important;
+
+    }
+    .input-group-prepend.change{
+        margin-top: 30px;
+    }
+    .error{
+        margin-left: 280px;
+        position: absolute;
+        z-index: 3;
+        width: 150px;
+        padding: 10px;
+        border: 1px solid #a94442;
+        color: #a94442;
+        background: #f2dede;
+        border-radius: 5px;
+        text-align: left;
+        margin-top: -25px;
+    }
+
+
+}
